@@ -72,7 +72,7 @@ if __name__ == '__main__':
     np.seterr(divide='ignore', invalid='ignore')
 
     ###################################### load data ######################################
-    load_path = '/data/shangyihao/new_subgraph1'
+    load_path = '/data/anonymous123/new_subgraph1'
 
     data = Data(load_path, args)
 
