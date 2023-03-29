@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,6 +52,13 @@
       <workItem from="1673961909391" duration="105000" />
       <workItem from="1674403062067" duration="808000" />
       <workItem from="1674404008006" duration="805000" />
+      <workItem from="1676822276704" duration="2010000" />
+      <workItem from="1676861269794" duration="6257000" />
+      <workItem from="1676900940243" duration="3184000" />
+      <workItem from="1676966974709" duration="2547000" />
+      <workItem from="1679984531193" duration="2496000" />
+      <workItem from="1680055955817" duration="277000" />
+      <workItem from="1680056254306" duration="84000" />
     </task>
     <servers />
   </component>

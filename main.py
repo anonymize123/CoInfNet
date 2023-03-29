@@ -21,6 +21,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--device', type=str, default='3')
     parser.add_argument('--seed', type=int, default=42, help='Random seed.')
+    parser.add_argument('--load_path', type=str, default='/data/anonymous123/new_subgraph1', help='data path')
     parser.add_argument('--batch_size', type=int, default=512, help='batch size')
     parser.add_argument('--temper', type=float, default=1.,
                         help='The temperature of the difference between '
@@ -72,7 +73,7 @@ if __name__ == '__main__':
     np.seterr(divide='ignore', invalid='ignore')
 
     ###################################### load data ######################################
-    load_path = '/data/anonymous123/new_subgraph1'
+    load_path = args.load_path
 
     data = Data(load_path, args)
 

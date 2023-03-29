@@ -16,7 +16,7 @@ class Data:
 
         self.path = load_path
         self.args = args
-        self.model_path = self.model_path_out()
+        self.model_path = self.model_path_out(load_path)
 
         self.x = None
         self.max_len = None
@@ -113,11 +113,11 @@ class Data:
         self.class_weight = len(label) / (2 * np.bincount(label))
 
     @staticmethod
-    def model_path_out() -> str:
+    def model_path_out(load_path) -> str:
 
         model_path = None
         for i in range(1000):
-            model_path = '/data/shangyihao/new_subgraph1/save_model/model{}'.format(i)
+            model_path = load_path + '/save_model/model{}'.format(i)
             if not osp.exists(model_path):
                 os.makedirs(model_path)
                 break
